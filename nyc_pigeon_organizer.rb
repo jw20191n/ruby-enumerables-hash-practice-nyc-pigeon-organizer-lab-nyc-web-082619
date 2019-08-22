@@ -8,12 +8,8 @@ def nyc_pigeon_organizer(data)
     
     second_level.each do | category, array |
       array.each do |name|
-        # if pigeon_name.include!(name)
-        # else
-        #   pigeon_name << name
-        # end
-        
-        pigeon[name] = {:color => [ ], :gender => [ ], :lives => [ ]}
+       for name in array do
+         
       end
       
       if array.include()
