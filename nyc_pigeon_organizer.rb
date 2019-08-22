@@ -1,9 +1,10 @@
 def nyc_pigeon_organizer(data)
   pigeon = { }
   
-
-  pigeon = { :color => [ ], :gender => [ ], :lives => [ ] }
-
+  data.each do | key, attribute |
+    key[:gender]
+    pigeon[name] = { :color => [ ], :gender => [ ], :lives => [ ] }
+  end
   
   pigeon
 end
