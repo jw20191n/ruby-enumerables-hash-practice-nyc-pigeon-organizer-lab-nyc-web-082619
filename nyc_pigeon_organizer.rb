@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do | attributes, details |
     # attributes: :color, :gender, :lives
-    # details: category and array
+    # details: category(:purple, :male, "Subway". etc) and array
     
     details.each do | category, array |
       array.each do |name|
@@ -13,8 +13,8 @@ def nyc_pigeon_organizer(data)
            pigeon[name] = { }
          end
          
-         if(![pigeon][name][attributes])
-           
+         if(!pigeon[name][attributes])
+           pigeon[name][attributes] = details.
          else
          end
          
