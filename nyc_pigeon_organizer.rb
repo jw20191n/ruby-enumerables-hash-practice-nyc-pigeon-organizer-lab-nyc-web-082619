@@ -1,6 +1,5 @@
 def nyc_pigeon_organizer(data)
   pigeon = { }
-  # pigeon_name = [ ]
   
   data.each do | attributes, details |
     # attributes: :color, :gender, :lives
@@ -18,15 +17,9 @@ def nyc_pigeon_organizer(data)
          else
            pigeon[name][attributes].push(details.to_s)
          end
-         
       end
-      
-      
     end
   end
   
-    
- 
-  
-  pigeon
+  return pigeon
 end
