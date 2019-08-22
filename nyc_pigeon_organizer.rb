@@ -1,8 +1,8 @@
 def nyc_pigeon_organizer(data)
   pigeon = { }
   
-  data.each do | keys, attributes |
-    pigeon[:name] = attributes
+  data.each do | keys |
+    pigeon[:name] = keys[:gender]
   end
   
   pigeon
