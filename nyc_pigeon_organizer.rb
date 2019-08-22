@@ -12,6 +12,8 @@ def nyc_pigeon_organizer(data)
         else
           pigeon_name << name
         end
+        
+        pigeon[name] = {:color => [ ], :gender => [ ], :lives => [ ]}
       end
     end
   end
