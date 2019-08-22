@@ -10,9 +10,9 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
        for name in array do
          if (!pigeon[name])
-           
-        else
-        end
+           pigeon[name] = { }
+         end
+         
       end
       
       if array.include()
