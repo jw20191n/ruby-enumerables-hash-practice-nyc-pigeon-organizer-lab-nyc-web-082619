@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     second_level.each do | category, array |
       array.each do |name|
        for name in array do
-         
+         if ()
       end
       
       if array.include()
