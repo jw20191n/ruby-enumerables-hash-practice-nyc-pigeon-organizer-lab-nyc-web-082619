@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   pigeon = { }
-  pigeon_name = [ ]
+  # pigeon_name = [ ]
   
   data.each do | first_level, second_level |
     # first_level: :color, :gender, :lives
@@ -8,17 +8,17 @@ def nyc_pigeon_organizer(data)
     
     second_level.each do | category, array |
       array.each do |name|
-        if pigeon_name.include!(name)
-        else
-          pigeon_name << name
-        end
+        # if pigeon_name.include!(name)
+        # else
+        #   pigeon_name << name
+        # end
         
         pigeon[name] = {:color => [ ], :gender => [ ], :lives => [ ]}
       end
     end
   end
   
-  
+    
  
   
   pigeon
