@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
          if(!pigeon[name][attributes])
            pigeon[name][attributes] = [details.to_s]
          else
-           
+           pigeon[name][attributes].push()
          end
          
       end
