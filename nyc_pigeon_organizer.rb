@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
   
   category = pigeon.keys
   
-  category.each
+ 
   
   pigeon
 end
