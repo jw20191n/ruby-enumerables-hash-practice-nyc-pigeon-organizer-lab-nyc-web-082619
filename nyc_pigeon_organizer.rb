@@ -9,14 +9,10 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
        for name in array do
          if (!pigeon[name])
-           pigeon[name] = { }
+           pigeon[name] = {:color => [ ], :gender => [ ], :lives => [ ] }
          end
          
-         if(!pigeon[name][attributes])
-           pigeon[name][attributes] = [details.to_s]
-         else
-           pigeon[name][attributes].push(details.to_s)
-         end
+
       end
     end
   end
