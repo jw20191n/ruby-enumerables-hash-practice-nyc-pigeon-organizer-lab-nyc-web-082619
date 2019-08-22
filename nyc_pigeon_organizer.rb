@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
          end
   
          if array.include?(name)
-           pigeon[name][attributes].push
+           pigeon[name][attributes].push(details.to_s)
       end
       
     
