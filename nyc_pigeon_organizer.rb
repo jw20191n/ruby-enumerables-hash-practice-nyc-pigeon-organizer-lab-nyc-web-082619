@@ -14,11 +14,9 @@ def nyc_pigeon_organizer(data)
         # end
         
         pigeon[name] = {:color => [ ], :gender => [ ], :lives => [ ]}
-        
-        if array.include?(pigeon[name]) 
-          pigeon[name][:]
       end
       
+      if array.include()
       
     end
   end
