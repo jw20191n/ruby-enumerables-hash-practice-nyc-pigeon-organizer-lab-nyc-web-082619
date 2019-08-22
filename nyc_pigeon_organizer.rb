@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     
     second_level.each do | category, array |
       array.each do |name|
-        pigeon[name] = { :color => [ ], :gender => [ ], :lives => [ ] }
+         
       end
     end
   end
